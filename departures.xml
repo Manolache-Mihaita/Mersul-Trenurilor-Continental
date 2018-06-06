@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<schedule>
+    <train ID="IR1">
+        <station>
+            <ID>Iasi_1</ID>
+            <arrival> 14:50</arrival>
+            <arrival_early_delay >10</arrival_early_delay>
+            <arrival_late_delay >10</arrival_late_delay>
+            <departure > 15:20</departure>
+            <departure_delay >10</departure_delay>
+        </station>
+        <station>
+            <ID>Iasi_2</ID>
+            <arrival> 17:10</arrival>
+            <arrival_early_delay >10</arrival_early_delay>
+            <arrival_late_delay >10</arrival_late_delay>
+            <departure > 17:20</departure>
+            <departure_delay >10</departure_delay>
+        </station>
+        <station>
+            <ID>Bucuresti_2</ID>
+            <arrival> 18:40</arrival>
+            <arrival_early_delay >10</arrival_early_delay>
+            <arrival_late_delay >10</arrival_late_delay>
+            <departure > 19:20</departure>
+            <departure_delay >10</departure_delay>
+        </station>
+    </train>
+    <train ID="Bd3">
+        <station>
+            <ID>Iasi_1</ID>
+            <arrival> 21:10</arrival>
+            <arrival_early_delay >10</arrival_early_delay>
+            <arrival_late_delay >10</arrival_late_delay>
+            <departure >10:30</departure>
+            <departure_delay >10</departure_delay>
+        </station>
+
+        <station>
+            <ID>Iasi_2</ID>
+            <arrival> 21:10</arrival>
+            <arrival_early_delay >10</arrival_early_delay>
+            <arrival_late_delay >10</arrival_late_delay>
+            <departure > 21:20</departure>
+            <departure_delay >10</departure_delay>
+        </station>
+              <station>
+        <ID>Bucuresti_1</ID>
+        <arrival> 21:10</arrival>
+        <arrival_early_delay >10</arrival_early_delay>
+        <arrival_late_delay >10</arrival_late_delay>
+        <departure > 21:20</departure>
+        <departure_delay >10</departure_delay>
+    </station>
+    </train>
+</schedule>
